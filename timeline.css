@@ -301,6 +301,7 @@
 .tl-timeline h2.tl-headline-title {
   font-size: 38px;
   line-height: 38px;
+  text-decoration: underline;
 }
 .tl-timeline h2.tl-headline-title small {
   display: block;
