@@ -1,7 +1,5 @@
-.tl-timegroup-message {
+.tl-timegroup .tl-timegroup-message {
   color: #000000;
-}
-
-.tl-timegroup-alternate-message {
-  color: #000000;
+  text-shadow: #333 0px 2px 2px;
+  margin-left: 80px;
 }
