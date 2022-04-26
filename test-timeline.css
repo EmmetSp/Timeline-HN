@@ -23,7 +23,7 @@
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
 }
 .tl-timegroup .tl-timegroup-message {
-  color: #000000;
+  color: #aba6a6;
   text-shadow: #333 0px 2px 2px;
   margin-left: 80px;
 }
