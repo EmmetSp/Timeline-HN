@@ -1739,7 +1739,7 @@
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
 }
 .tl-timegroup .tl-timegroup-message {
-  color: #000;
+  color: #262523;
   text-shadow: #FFF 0px 1px 1px;
   margin-left: 70px;
 }
