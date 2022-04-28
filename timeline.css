@@ -305,6 +305,7 @@
   text-decoration: underline;
 }
 .tl-timeline h2.tl-headline-title small {
+  color: #737373;
   display: block;
   margin-top: 5px;
   font-size: 24px;
