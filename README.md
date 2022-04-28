@@ -8,6 +8,6 @@ Timeline-HN is building upon [Timeline.JS](https://timeline.knightlab.com/), it 
 ### Example
 When you created your [Timeline](https://timeline.knightlab.com/#make), simply appending ``&theme=https://emmetsp.github.io/Timeline-HN/timeline.css`` on the end of your URL will change its look!
 
-Click these links to compare the themes:
-[Timeline-HN](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xuY4upIooEeszZ_lCmeNx24eSFWe0rHe9ZdqH2xqVNk&font=Default&lang=en&initial_zoom=2&height=100%&theme=https://emmetsp.github.io/Timeline-HN/timeline.css)
+Click these links to compare the themes:\
+[Timeline-HN](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xuY4upIooEeszZ_lCmeNx24eSFWe0rHe9ZdqH2xqVNk&font=Default&lang=en&initial_zoom=2&height=100%&theme=https://emmetsp.github.io/Timeline-HN/timeline.css)\
 [Default](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xuY4upIooEeszZ_lCmeNx24eSFWe0rHe9ZdqH2xqVNk&font=Default&lang=en&initial_zoom=2&height=100%)
