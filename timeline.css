@@ -1326,7 +1326,7 @@
   overflow: hidden;
   font-weight: normal;
   margin: 0;
-  color: #bfbfbf;
+  color: #000;
   position: relative;
 }
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout:after,
