@@ -24,3 +24,7 @@ When putting TimelineJS3 into your website, you will add these lines of code to 
         timeline = new TL.Timeline('timeline-embed',
         '');
     </script>``
+
+    ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timeline.js``
+    ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timeline.css``
+    ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/embed.html``
