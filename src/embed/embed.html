@@ -19,8 +19,8 @@
       this isn't good enough. We used that to get the non-minimized version, for debugging,
       but now maybe sourcemaps are a better alternative?
     -->
-    <script id='timeline-script-tag' type="text/javascript" src="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timeline.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timeline.css">
+    <script id='timeline-script-tag' type="text/javascript" src="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/src/js/timeline.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/src/css/timeline.css">
     <!-- Google Analytics should be handled by Timeline -->
 
     <base target="_blank">
@@ -74,7 +74,7 @@
             return "https://cdn.knightlab.com/libs/timeline3/latest/";
         }
 
-        function addOembedTag() {
+        function addOembedTag() { // not used
             // it's not clear that any tools execute this JS to get the URL, but maybe?
             var oembed_link = document.createElement('link');
             oembed_link['rel'] = 'alternate';
@@ -147,7 +147,6 @@
 
         ready(function() {
             setPageLanguage();
-            var embed_path = computeEmbedPath();
             addOembedTag();
 
             var options = optionsFromUrlParams();
@@ -155,13 +154,14 @@
             // ga_property_id is not something we let users override
             options.ga_property_id = 'UA-27829802-4';
             if (typeof(options.source) == 'undefined') {
-                options.source = '1xuY4upIooEeszZ_lCmeNx24eSFWe0rHe9ZdqH2xqVNk' // women in computing
+                options.source = 'https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timelines/srp-timeline.json' // women in computing
             }
 
             options.soundcite = true;
 
             window.options = options
-            window.timeline = new TL.Timeline('timeline-embed', options.source, options)
+            window.timeline = new TL.Timeline('timeline-embed', 
+            'https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timelines/srp-timeline.json', options)
 
         })
     </script>
