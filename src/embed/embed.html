@@ -147,6 +147,7 @@
             options.ga_property_id = 'UA-27829802-4';
             options.debug = true
             options.font = "default";
+            options.key = "AIzaSyB63D0iL2Yv1ysRMYiJmPxzARLF0oSHmJY"
             if (typeof(options.source) == 'undefined') {
                 options.source = '/' // women in computing
             }
@@ -157,10 +158,8 @@
 
             console.log(options)
             window.timeline = new TL.Timeline('timeline-embed', 
-            'https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@c52493e19d0116474dc058638adfbf38e0058e82/example-events.json', options)
-            window.timeline.on('markerclick', function(data) {
-                
-            })
+            'https://docs.google.com/spreadsheets/d/15JRKlU7wa3K5pbbaQP6RX0Jcy4lRKniCep4QbZHjWlw/pubhtml', options)
+            
 
 
         })
