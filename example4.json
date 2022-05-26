@@ -10,9 +10,9 @@
       "headline": "Valley LGBT+ History",
       "text": "This will be an introduction"
     }
-  }
+  },
   "events": [
-    {
+      {
       "media": {
         "url": "",
         "caption": "",
@@ -5056,4 +5056,5 @@
         "text": "(Gay/Lesbian Informational Support Services of Springfield)"
       }
     }
+  ]
 }
