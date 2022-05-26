@@ -15,8 +15,8 @@
     <link rel="manifest" href="https://cdn.knightlab.com/libs/orangeline/latest/assets/favicons/manifest.json">
     <link rel="mask-icon" href="https://cdn.knightlab.com/libs/orangeline/latest/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
 
-    <script id='timeline-script-tag' type="text/javascript" src="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@48f3963/src/js/timeline.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@48f3963/src/css/timeline.css">
+    <script id='timeline-script-tag' type="text/javascript" src="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@70228c0aafb8854c0d5ac5a222f3605101c5295a/src/js/timeline.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@43830c2870f65d2109c26329d458113a39ee1973/src/css/timeline.css">
 
     <base target="_blank">
 
@@ -31,6 +31,46 @@
         
         #timeline-embed {
             height: 100%;
+        }
+
+        select {
+            opacity: 0.5;
+        }
+        ul {
+            width: 8em;
+            line-height: 2em;
+        }
+
+        li {
+            display: list-item;
+            width: 100%;
+            height: 2em;
+            border:1px solid #ccc;
+            border-top-width: 0;
+            text-indent: 1em;
+            background-color: #f90;
+        }
+        li:first-child {
+            border-top-width: 1px;
+        }
+
+        li.unselected {
+            display: none;
+            background-color: #fff;
+        }
+        ul#selectFilter:hover li.unselected {
+            background-color: #fff;
+        }
+        ul#selectFilter:hover li,
+        ul#selectFilter:hover li.unselected {
+            display: list-item;
+        }
+        ul#selectFilter:hover li {
+            background-color: #fc0;
+        }
+        ul#selectFilter li:hover,
+        ul#selectFilter li.unselected:hover {
+            background-color: #f90;
         }
     </style>
     
@@ -158,11 +198,34 @@
 
             console.log(options)
             window.timeline = new TL.Timeline('timeline-embed', 
-            'https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver/timeline-entries.json', options)
+            'https://cdn.jsdelivr.net/gh/NUKnightLab/TimelineJS3/website/templates/examples/timeline3.json', options)
             
 
 
         })
+
+        
+    </script>
+
+
+
+    <script>
+    function init_slide_event_types(data) {
+        console.log('EVENT='+data.type, data)
+
+        var events = timeline.config.events;;
+        var html = '';
+
+        for(var i = 0; i < events.length; i++) {
+            var year = events[i].start_date.data.year
+            var addedValue = '<option>' + year + '</option>';
+            if (html.includes(addedValue)) { // Works
+                continue;
+            }
+            html += addedValue
+        }
+        $('#select_filter').html(html);
+    }
     </script>
 
     <button id="div">hello</button>
