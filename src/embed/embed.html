@@ -19,11 +19,9 @@
       this isn't good enough. We used that to get the non-minimized version, for debugging,
       but now maybe sourcemaps are a better alternative?
     -->
-    <!-- <script id='timeline-script-tag' type="text/javascript" src="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/src/js/timeline.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/src/css/timeline.css"> -->
+    <script id='timeline-script-tag' type="text/javascript" src="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/src/js/timeline.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/src/css/timeline.css">
 
-    <script id='timeline-script-tag' type="text/javascript" src="/src/js/timeline.js"></script>
-    <link rel="stylesheet" href="/src/css/timeline.css">
 
     <!-- Google Analytics should be handled by Timeline -->
 
@@ -157,8 +155,9 @@
             createEmbedDiv('timeline-embed', options.width, options.height);
             // ga_property_id is not something we let users override
             options.ga_property_id = 'UA-27829802-4';
+            options.debug = true
             if (typeof(options.source) == 'undefined') {
-                options.source = 'https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timelines/srp-timeline.json' // women in computing
+                options.source = '/' // women in computing
             }
 
             options.soundcite = true;
