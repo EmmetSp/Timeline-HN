@@ -5,7 +5,7 @@ Timeline-HN is building upon [Timeline.JS](https://timeline.knightlab.com/), it 
 
 To get access to Event Types, you must add a column labeled "Event Types" matched with caps.
 
-# Example
+# Example (Javascript)
 When putting TimelineJS3 into your website, you will add these lines of code to your javascript: 
 
 
@@ -28,3 +28,7 @@ When putting TimelineJS3 into your website, you will add these lines of code to 
     ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timeline.js``
     ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timeline.css``
     ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/embed.html``
+    
+ # Example (Iframe)
+ 
+ ``<iframe src="https://emmetsp.github.io/Timeline-HN/src/embed/embed.html?soutce=https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@latest/events.json?></iframe>
