@@ -31,4 +31,4 @@ When putting TimelineJS3 into your website, you will add these lines of code to 
     
  # Example (Iframe)
  
- ``<iframe src="https://emmetsp.github.io/Timeline-HN/src/embed/embed.html?soutce=https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@latest/events.json?></iframe>
+ ``<iframe src="https://emmetsp.github.io/Timeline-HN/src/embed/embed.html?soutce=https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@latest/events.json?></iframe>``
