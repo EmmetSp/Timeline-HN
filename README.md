@@ -11,7 +11,7 @@ To create events for your timeline, take your Timeline Spreadsheet and use the E
 When putting TimelineJS3 into your website, you will add these lines of code to your javascript: 
 
 
-    <!-- Creating a  -->
+    <!-- Creating a Timeline javascript element-->
 
     <!-- First, a link to the timeline stylesheet.-->
     <link title="timeline-styles" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN/timeline.css">
@@ -24,7 +24,7 @@ When putting TimelineJS3 into your website, you will add these lines of code to 
     <!-- Finally, build the Timeline -->
     <script type="text/javascript">
         timeline = new TL.Timeline('timeline-embed',
-        '');
+        'source-to-events');
     </script>``
 
     ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/timeline.js``
