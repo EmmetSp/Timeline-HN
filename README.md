@@ -3,7 +3,9 @@ Timeline-HN is a repository hosting all files needed to run a branched off Timel
 # How do I use it?
 Timeline-HN is building upon [Timeline.JS](https://timeline.knightlab.com/), it holds a CSS file that, when appended onto a timeline URL, it changes the theme to a more legibal color scheme. 
 
-To get access to Event Types, you must add a column labeled "Event Types" matched with caps.
+## Creating Events
+
+To create events for your timeline, take your Timeline Spreadsheet and use the Export Sheet Data export tool to transfer your spreadsheet to json. There is a tutorial on how to do this at https://github.com/Emmetion/sheets-to-json
 
 # Example (Javascript)
 When putting TimelineJS3 into your website, you will add these lines of code to your javascript: 
@@ -30,5 +32,5 @@ When putting TimelineJS3 into your website, you will add these lines of code to 
     ``https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@master/embed.html``
     
  # Example (Iframe)
- 
- ``<iframe src="https://emmetsp.github.io/Timeline-HN/src/embed/embed.html?soutce=https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@latest/events.json?></iframe>``
+ Hosting an iframe on your website is the easiest way to create a timeline in your webpage. Use this example below. Changing the source URL to your events JSON file will update the timeline with those events.
+ ``<iframe src="https://emmetsp.github.io/Timeline-HN/src/embed/embed.html?soutce=https://cdn.jsdelivr.net/gh/EmmetSp/Timeline-HN@latest/events.json&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>``
