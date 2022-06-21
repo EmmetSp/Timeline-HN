@@ -1,7 +1,7 @@
 Timeline-HN is a repository hosting all files needed to run a branched off TimelineJS3. In this project you fill find 
 
 # How do I use it?
-Timeline-HN is building upon [Timeline.JS](https://timeline.knightlab.com/), it holds a CSS file that, when appended onto a timeline URL, it changes the theme to a more legibal color scheme. 
+Timeline-HN is building upon [Timeline.JS](https://timeline.knightlab.com/), it holds a CSS file that, when appended onto a timeline URL, changes the theme to a more legibal color scheme. 
 
 ## Creating Events
 
