@@ -561,8 +561,8 @@
 ================================================== */
 @font-face {
   font-family: 'tl-icons';
-  src: url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN/src/css/icons/tl-icons.eot');
-  src: url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN/src/css/icons/tl-icons.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN/src/css/icons/tl-icons.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN/src/css/icons/tl-icons.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN/src/css/icons/tl-icons.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN/src/css/icons/tl-icons.svg#tl-icons') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN@latest/src/css/icons/tl-icons.eot');
+  src: url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN@latest/src/css/icons/tl-icons.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN@latest/src/css/icons/tl-icons.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN@latest/src/css/icons/tl-icons.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN@latest/src/css/icons/tl-icons.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/Emmetion/Timeline-HN@latest/src/css/icons/tl-icons.svg#tl-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
