@@ -2696,6 +2696,7 @@
 }
 .tl-text h2.tl-headline-title,
 .tl-text h2.tl-headline {
+  color: #000;
   margin-top: 0;
 }
 .tl-text .tl-headline-date,
