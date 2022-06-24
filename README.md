@@ -33,4 +33,6 @@ When putting TimelineJS3 into your website, you will add these lines of code to 
     
  # Example (Iframe)
  Hosting an iframe on your website is the easiest way to create a timeline in your webpage. Use this example below. Changing the source URL to your events JSON file will update the timeline with those events.
- ``<iframe src="https://emmetion.github.io/Timeline-HN/src/embed/embed.html?source=https://emmetion.github.ioTimeline-HN/timelines/srp-events.json' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>``
+ ``<iframe src="https://emmetion.github.io/Timeline-HN/src/embed/embed.html?source=https://emmetion.github.ioTimeline-HN/timelines/srp-events.json' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>`` <-- a single quote bugged this entire embed.
+ 
+ ``<iframe src="https://emmetion.github.io/Timeline-HN/src/embed/embed.html?source=https://emmetion.github.io/Timeline-HN/timelines/example-events.json" width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>`` <-- working one
