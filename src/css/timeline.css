@@ -299,10 +299,12 @@
   line-height: 15px;
 }
 .tl-timeline h2.tl-headline-title {
+  color: #242424;
   font-size: 38px;
   line-height: 38px;
 }
 .tl-timeline h2.tl-headline-title small {
+  color: #242424;
   display: block;
   margin-top: 5px;
   font-size: 24px;
