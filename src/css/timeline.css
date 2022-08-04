@@ -866,7 +866,7 @@
 
 .tl-menubar-select {
   background-color: rbga(242, 242, 242, 0.9);
-  width: 10%
+  width: 50px
 }
 
 .tl-mobile .tl-menubar-button {
