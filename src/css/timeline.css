@@ -863,6 +863,12 @@
   color: #bfbfbf;
   background-color: rgba(242, 242, 242, 0.9);
 }
+
+.tl-menubar-select {
+  background-color: rbga(242, 242, 242, 0.9);
+  width: 10%
+}
+
 .tl-mobile .tl-menubar-button {
   display: block;
 }
