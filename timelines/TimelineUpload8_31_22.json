@@ -1747,7 +1747,7 @@
       "event_types": [
         "Enslaved_Black"
       ],
-      "group": "Enslaved at some point in lifetime",
+      "group": "Enslaved Black People",
       "type": ""
     },
     {
@@ -1778,7 +1778,7 @@
       "event_types": [
         "Free_Native"
       ],
-      "group": "Free person of color from birth/in all records",
+      "group": "Free Native People",
       "type": ""
     },
     {
@@ -2801,7 +2801,7 @@
       "event_types": [
         "Free_Black"
       ],
-      "group": "Enslaved at some point in lifetime",
+      "group": "Enslaved Black Peope",
       "type": ""
     },
     {
@@ -2894,7 +2894,7 @@
       "event_types": [
         "Free_Black"
       ],
-      "group": "Free person of color from birth/in all records",
+      "group": "Free Black People",
       "type": ""
     },
     {
@@ -3762,7 +3762,7 @@
       "event_types": [
         "Free_Black"
       ],
-      "group": "Free person of color from birth/in all records",
+      "group": "Free Black People",
       "type": ""
     },
     {
