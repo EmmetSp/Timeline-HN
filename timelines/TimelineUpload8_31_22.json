@@ -1745,7 +1745,7 @@
       "display_date": "March 1, 1745",
       "background": "",
       "event_types": [
-        "Enslaved_Black"
+        "Enslaved_Black_People"
       ],
       "group": "Enslaved Black People",
       "type": ""
@@ -1776,7 +1776,7 @@
       "display_date": "August 1746",
       "background": "",
       "event_types": [
-        "Free_Native"
+        "Free_Native_People"
       ],
       "group": "Free Native People",
       "type": ""
@@ -2799,7 +2799,7 @@
       "display_date": "1761-1768",
       "background": "",
       "event_types": [
-        "Free_Black"
+        "Free_Black_People"
       ],
       "group": "Enslaved Black Peope",
       "type": ""
@@ -2892,7 +2892,7 @@
       "display_date": "1764",
       "background": "",
       "event_types": [
-        "Free_Black"
+        "Free_Black_People"
       ],
       "group": "Free Black People",
       "type": ""
